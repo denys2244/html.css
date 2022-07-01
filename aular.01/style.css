@@ -1,0 +1,33 @@
+p {
+    
+}
+.container {
+    background-color: rgb(223, 78, 117);/*cor de fudo do container*/
+    border: 2px solid rgb(189, 39, 39);/*linha do quadrado*/
+    padding: 50px;/*tamanho  e autura do quadrado*/
+    max-width: 200px;/*largura do qt orizontal*/
+    height: 200px;/*autura vertical*/
+    display: flex;/*numero orizontal*/
+    justify-content: left ;/*centraliza*/
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.item {
+    background-color: rgb(4, 165, 60);/*cor de fudo */
+    border: 2px solid rgb(53, 29, 189);/*linha dos quadrado*/
+    height: 50px;/*altura*/
+    width: 80px;/*lagura dos item*/
+}
+.box {
+    background-color: blueviolet;
+    border: 2px solid blue;
+    height: 50px;
+    flex-basis: 30px;
+}
+#item-1 {
+    flex-grow:  2;
+}
+#item-2,
+#item-3{
+    flex-grow:  1;

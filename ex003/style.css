@@ -1,0 +1,16 @@
+body {
+    color: rgb(82, 98, 213);
+    font-display: calc(Arial);
+    font-display: inherit;
+    font-variant: normal;
+}
+h1 {
+    color: rgb(43, 49, 221);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p {
+    background-color: rgb(41, 39, 39);
+    
+    font-family: Arial, Helvetica, sans-serif;
+
+}
